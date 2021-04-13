@@ -90,12 +90,5 @@ family.push("Ledija", "Zaphira");
 console.log(family);
 
 // 5. Reverse the order of the array.
-family.sort();
-console.log(family);
-
 // 6. Access one of your parents' names.
-console.log(family[5]);
-
 // 7. Update the name of one of your parents. 
-family.splice(5, 1, "MyFather");
-console.log(family);

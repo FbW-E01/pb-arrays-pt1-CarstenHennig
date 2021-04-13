@@ -97,5 +97,3 @@ console.log(family);
 console.log(family[5]);
 
 // 7. Update the name of one of your parents. 
-family.splice(5, 1, "MyFather");
-console.log(family);

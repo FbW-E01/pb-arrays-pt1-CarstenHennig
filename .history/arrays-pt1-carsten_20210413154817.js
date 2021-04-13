@@ -66,9 +66,7 @@ console.log(worldCities.join("+"));
 
 // 1. Write a program to reverse the string: "Hello World". 
 let greeting = "Hello World";
-let newGreeting = greeting.split(" ");
-newGreeting.reverse();
-console.log(newGreeting);
+console.log(greeting.split("\n").reverse());
 
 
 // **Extra Practice**
@@ -76,26 +74,9 @@ console.log(newGreeting);
 // Print the results to the console.
 
 // 1. Make an array of your siblings' names or your favorite movie characters' names.
-let siblings = ["Anke", "Heide", "Tilman"];
-
 // 2. Make an array of your parents' names.
-let parents = ["Vater", "Mutter"];
-
 // 3. Combine these two arrays.
-let family = parents.concat(siblings);
-console.log(family);
-
 // 4. Add your pets' names.
-family.push("Ledija", "Zaphira");
-console.log(family);
-
 // 5. Reverse the order of the array.
-family.sort();
-console.log(family);
-
 // 6. Access one of your parents' names.
-console.log(family[5]);
-
 // 7. Update the name of one of your parents. 
-family.splice(5, 1, "MyFather");
-console.log(family);

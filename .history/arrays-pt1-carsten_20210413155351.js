@@ -94,8 +94,7 @@ family.sort();
 console.log(family);
 
 // 6. Access one of your parents' names.
-console.log(family[5]);
+let myFather = family.slice(5, 1);
+console.log(myFather);
 
 // 7. Update the name of one of your parents. 
-family.splice(5, 1, "MyFather");
-console.log(family);
